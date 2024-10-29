@@ -29,7 +29,7 @@ const Education = () => {
           </div>
         </div>
         <div className="img-box">
-          <img src="/eliceIpad.png" fill property="true" className="img" />
+          <img src="/eliceIpad.png" fill property="true" className="img" alt="수료증"/>
         </div>
       </div>
     </div>

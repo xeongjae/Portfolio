@@ -28,6 +28,7 @@ const Contact = () => {
             href={"https://github.com/xeongjae"}
             target="_blank"
             className="link"
+            rel="noopener"
           >
             <SiGithub />
             Github

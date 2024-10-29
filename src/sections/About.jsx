@@ -6,7 +6,7 @@ function About({ setRef }) {
       <div className="title">About Me</div>
       <div className="contents">
         <div className="img-box">
-          <img src="/동글프사.png" fill property="true" className="img" />
+          <img src="/동글프사.png" fill property="true" className="img" alt="동글프사"/>
         </div>
         <div className="text">
           <h1>
