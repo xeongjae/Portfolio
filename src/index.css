@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(18, 18, 18);
+  color: #F8FAFC;
+  margin: 0;
+  font-family: "GmarketSansMedium";
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: inherit;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+}

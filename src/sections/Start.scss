@@ -1,0 +1,120 @@
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+    h1 {
+      margin: 0;
+      font-family: "Syncopate", sans-serif;
+      font-weight: 700;
+      font-size: clamp(64px, 7vw, 140px);
+      transition: transform 0.5s ease-out;
+      z-index: 1;
+    }
+    .point {
+      color: #9ca3af;
+    }
+  }
+  .cloud {
+    position: absolute;
+    width: 7vw;
+    height: auto;
+
+    &.cloud1 {
+      left: 2vw;
+      top: 28%;
+      scale: 2;
+    }
+
+    &.cloud2 {
+      left: 10vw;
+      top: 48%;
+      scale: 3.2;
+    }
+
+    &.cloud3 {
+      left: 3vw;
+      bottom: 28vh;
+      scale: 1.3;
+    }
+
+    &.cloud4 {
+      left: 0.5vw;
+      bottom: 80px;
+      scale: 2.6;
+    }
+
+    &.cloud5 {
+      left: 15vw;
+      bottom: 12vh;
+      scale: 1.8;
+    }
+
+    &.cloud7 {
+      left: 28vw;
+      bottom: 24vh;
+      scale: 1;
+      filter: blur(2px);
+    }
+
+    &.cloud9 {
+      left: 35vw;
+      bottom: 50px;
+      scale: 2.8;
+    }
+
+    &.cloud10 {
+      right: 36vw;
+      bottom: 10vh;
+      scale: 1.9;
+    }
+
+    &.cloud12 {
+      right: 0vw;
+      bottom: 5.5vh;
+      scale: 1.8;
+    }
+
+    &.cloud14 {
+      right: 10.5vw;
+      bottom: 23vh;
+      scale: 3.7;
+    }
+
+    &.cloud15 {
+      right: 25vw;
+      bottom: 31vh;
+      scale: 1;
+    }
+
+    &.cloud16 {
+      right: 3vw;
+      bottom: 42vh;
+      scale: 1;
+    }
+
+    &.cloud17 {
+      right: 9vw;
+      top: 38vh;
+      scale: 2;
+    }
+
+    &.cloud18 {
+      right: 15vw;
+      top: 19vh;
+      scale: 3;
+    }
+  }
+}
+
+

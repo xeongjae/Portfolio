@@ -1,0 +1,146 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1300px;
+  height: 100vh;
+  margin: 0 40px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+
+  .title {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .subtitle {
+    font-family: "NanumSquareNeo";
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  .description {
+    font-family: "NanumSquareNeo";
+    margin-top: 1rem;
+    line-height: 1.5;
+    color: #d1d5d8;
+  }
+
+  .contact-item-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+    font-size: 16px;
+  }
+
+  .contact-item {
+    padding: 0.7rem 1.2rem;
+    border: 1px solid #a0aec0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 9999px;
+    font-size: 18px;
+  }
+
+  .link {
+    padding: 0.6rem 1.1rem;
+    border: 1px solid #a0aec0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 9999px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .link:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+
+  .frontend-text {
+    width: 12vw;
+    position: absolute;
+    top: 22%;
+    left: 0;
+    color: #999;
+    filter: blur(2px);
+    animation: bounce 1,5s infinite alternate;
+  }
+
+  .Code-text {
+    width: 10vw;
+    position: absolute;
+    rotate: 20deg;
+    top: 14%;
+    right: 18%;
+    color: #ddd;
+    filter: blur(1px);
+    animation: bounce 2s infinite alternate;
+  }
+
+  .react-text {
+    width: 8vw;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    color: #ddd;
+    filter: blur(3px);
+    animation: bounce 3s infinite alternate;
+  }
+
+  .javascript-text {
+    width: 10vw;
+    position: absolute;
+    rotate: -5deg;
+    bottom: 10%;
+    left: 50%;
+    color: #555;
+    filter: blur(3px);
+    animation: bounce 2.5s infinite alternate;
+  }
+
+  @media (min-width: 768px) {
+    .contact {
+      width: calc(100% - 80px);
+      margin: 0 40px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .contact {
+      width: calc(100% - 120px);
+      margin: 0 60px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .contact {
+      width: calc(100% - 200px);
+      margin: 0 100px;
+    }
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .contact-item-box {
+      flex-direction: row;
+    }
+  }
+}
