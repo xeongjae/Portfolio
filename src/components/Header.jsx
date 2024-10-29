@@ -1,16 +1,14 @@
+import React, { useEffect, useState } from "react";
 import "./Header.scss";
-import { useEffect, useState } from "react";
 
 function Header({ scrollRef }) {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleScroll = (idx) => {
-    if (scrollRef.current[idx]) {
-      scrollRef.current[idx]?.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
+    scrollRef.current[idx]?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
   };
 
   useEffect(() => {
@@ -29,12 +27,15 @@ function Header({ scrollRef }) {
       });
     }, options);
 
-    scrollRef.current.forEach((section) => {
-      observer.observe(section); // 모든 섹션을 관찰 대상으로 설정
+    // scrollRef.current를 변수에 복사
+    const sections = scrollRef.current;
+
+    sections.forEach((section) => {
+      observer.observe(section);
     });
 
     return () => {
-      scrollRef.current.forEach((section) => {
+      sections.forEach((section) => {
         observer.unobserve(section);
       });
     };
