@@ -7,7 +7,7 @@ function Project() {
   return (
     <div className="project">
       <div className="title-box">
-        <h1 className="tit">PROJECT</h1>
+        <h1 className="tit">Project</h1>
       </div>
       <div className="contents-box">
         <div className="contents">

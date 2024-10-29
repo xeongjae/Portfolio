@@ -3,10 +3,16 @@ import "./About.scss";
 function About({ setRef }) {
   return (
     <section ref={setRef} className="about">
-      <div className="title">About Me</div>
+      <h1 className="title">About Me</h1>
       <div className="contents">
         <div className="img-box">
-          <img src="/동글프사.png" fill property="true" className="img" alt="동글프사"/>
+          <img
+            src="/동글프사.png"
+            fill
+            property="true"
+            className="img"
+            alt="동글프사"
+          />
         </div>
         <div className="text">
           <h1>
@@ -15,13 +21,13 @@ function About({ setRef }) {
           <p>
             새로운 프로젝트에 참여할 때마다 저는 항상{" "}
             <span className="point2">열정적</span>으로 몰입합니다.
-            <br /> 기획 의도에 적합한 기능을 찾고,{" "}
+            <br /> 기획 의도에 적합한 기능을 찾고,
             <span className="point2">사용자 경험 향상</span>을 위해 노력하는
             “개발자”입니다.
           </p>
           <p>
-            팀원들과의 협업에서도 같은 열정을 유지하며, 의견을 주고받고 함께
-            고민하며 문제를 해결하기 위해 끊임없이 노력합니다.
+            협업에서도 같은 열정을 유지하며, 의견을 주고받고 함께 고민하며
+            문제를 해결하기 위해 끊임없이 노력합니다.
           </p>
           <p>
             주어진 업무에 그치지 않고{" "}

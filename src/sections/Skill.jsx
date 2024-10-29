@@ -25,7 +25,7 @@ function Skill({ setRef }) {
           icon={<FaHtml5 size={26} color="#E34F26" />}
         >
           <div>웹 표준에 맞는 HTML 문법을 사용합니다.</div>
-          <div>CSS로 자유롭게 웹 페이지를 스타일링 할 수 있습니다.</div>
+          <div>CSS로 웹 페이지를 스타일링 할 수 있습니다.</div>
           <div>
             미디어 쿼리를 활용하여 다양한 기기에서의 웹 페이지를 구성합니다.
           </div>
@@ -37,7 +37,7 @@ function Skill({ setRef }) {
           <div>자바스크립트의 작동원리를 이해하고 있습니다.</div>
           <div>ES6+ 문법을 활용합니다.</div>
           <div>리엑트를 이용하여 웹 프로젝트를 완성할 수 있으며,</div>
-          <div>다양한 라이브러리를 리엑트 프로젝트에 적용할 수 있습니다.</div>
+          <div>다양한 라이브러리를 적용할 수 있습니다.</div>
         </UsedStackCard>
         <UsedStackCard
           title={
@@ -50,7 +50,7 @@ function Skill({ setRef }) {
           icon={<SiSass size={30} color="#CC6699" />}
         >
           <div>
-            Styled Component, SCSS를 리엑트 프로젝트에 적용하여 스타일링 및 CSS
+            Styled Component, SCSS를 적용하여 스타일링 및 CSS
             관리를 해봤습니다.
           </div>
           <div>
@@ -82,9 +82,6 @@ function Skill({ setRef }) {
           title={"Git / Figma / Notion"}
           icon={<SiGithub size={30} color="#F05032" />}
         >
-          <div>
-            GitHub, GitLab을 사용하여 협업할 수 있습니다.
-          </div>
           <div>
             피그마로 와이어프레임 및 목업을 작성하고 디자이너와 협업할 수
             있습니다.

@@ -18,6 +18,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Montserrat", sans-serif;
+ 
 
   .logo {
     display: flex;
@@ -30,12 +32,14 @@
   .logo-text {
     font-size: 24px;
     font-weight: 700;
+    text-shadow: 1px 1px 1px #758ebf;
   }
 
   .menu {
     display: flex;
     justify-content: space-between;
     width: 80%;
+    
   }
 
   .item {
@@ -45,6 +49,7 @@
     width: 100%;
     color: #9ca3af;
     transition: color 0.4s, font-weight 0.4s;
+
     &:hover {
       cursor: pointer;
     }

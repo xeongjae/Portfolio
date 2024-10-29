@@ -1,8 +1,10 @@
+
+
 body {
   background-color: rgb(18, 18, 18);
   color: #F8FAFC;
   margin: 0;
-  font-family: "GmarketSansMedium";
+  font-family: "NanumSquareNeo";
 }
 
 a {
@@ -21,5 +23,6 @@ h6,
 p,
 ul,
 ol {
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }

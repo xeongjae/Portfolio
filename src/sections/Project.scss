@@ -13,11 +13,9 @@
       display: flex;
       align-items: center;
       gap: 3%;
-      font-family: "Montserrat", sans-serif;
-      font-size: 64px;
-      font-weight: 700;
+      font-size: 60px;
       white-space: nowrap;
-      text-shadow: 1px 1px 2px #8fafd9, 2px 2px 4px #758ebf;
+      text-shadow: 1.5px 1.5px 2px #758ebf;
     }
   }
 
@@ -31,18 +29,13 @@
     opacity: 0.6;
   }
 
-  .subtitle {
-    color: #9ca3af;
-    font-size: 24px;
-    font-family: "NanumSquareNeo", sans-serif;
-  }
-
   .contents-box {
     display: flex;
     flex-direction: column;
   }
 
   .contents {
+    font-family: "NanumSquareNeo";
     width: 100%;
   }
 
