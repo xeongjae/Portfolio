@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
 import "./Header.scss";
+import { useEffect, useState } from "react";
 
 function Header({ scrollRef }) {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -7,15 +7,16 @@ function Header({ scrollRef }) {
   const handleScroll = (idx) => {
     scrollRef.current[idx]?.scrollIntoView({
       behavior: "smooth",
-      block: "start",
+      block: "nearest",
     });
   };
+
 
   useEffect(() => {
     const options = {
       root: null, // viewport를 기준으로 관찰
       rootMargin: "-100px", // 상단 여유 공간
-      threshold: 0.45, // 10%가 뷰포트에 들어올 때 실행
+      threshold: 0.1, // 10%가 뷰포트에 들어올 때 실행
     };
 
     const observer = new IntersectionObserver((entries) => {
@@ -27,15 +28,12 @@ function Header({ scrollRef }) {
       });
     }, options);
 
-    // scrollRef.current를 변수에 복사
-    const sections = scrollRef.current;
-
-    sections.forEach((section) => {
-      observer.observe(section);
+    scrollRef.current.forEach((section) => {
+      observer.observe(section); // 모든 섹션을 관찰 대상으로 설정
     });
 
     return () => {
-      sections.forEach((section) => {
+      scrollRef.current.forEach((section) => {
         observer.unobserve(section);
       });
     };
