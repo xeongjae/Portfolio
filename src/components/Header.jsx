@@ -5,10 +5,12 @@ function Header({ scrollRef }) {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleScroll = (idx) => {
-    scrollRef.current[idx]?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
+    if (scrollRef.current[idx]) {
+      scrollRef.current[idx]?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
   };
 
   useEffect(() => {
