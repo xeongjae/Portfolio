@@ -16,6 +16,7 @@
     font-weight: 900;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 2px;
+    z-index: 100;
   }
 
   .subtitle {
@@ -75,7 +76,10 @@
     left: 0;
     color: #999;
     filter: blur(2px);
-    animation: bounce 1,5s infinite alternate;
+    animation: bounce 1, 5s infinite alternate;
+    z-index: 10;
+    pointer-events: none;
+    user-select: none;
   }
 
   .Code-text {
@@ -87,6 +91,8 @@
     color: #ddd;
     filter: blur(1px);
     animation: bounce 2s infinite alternate;
+    pointer-events: none;
+    user-select: none;
   }
 
   .react-text {
@@ -97,6 +103,8 @@
     color: #ddd;
     filter: blur(3px);
     animation: bounce 3s infinite alternate;
+    pointer-events: none;
+    user-select: none;
   }
 
   .javascript-text {
@@ -108,6 +116,8 @@
     color: #555;
     filter: blur(3px);
     animation: bounce 2.5s infinite alternate;
+    pointer-events: none;
+    user-select: none;
   }
 
   @media (min-width: 768px) {
@@ -116,14 +126,14 @@
       margin: 0 40px;
     }
   }
-  
+
   @media (min-width: 1024px) {
     .contact {
       width: calc(100% - 120px);
       margin: 0 60px;
     }
   }
-  
+
   @media (min-width: 1280px) {
     .contact {
       width: calc(100% - 200px);

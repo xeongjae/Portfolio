@@ -7,10 +7,9 @@ function Header({ scrollRef }) {
   const handleScroll = (idx) => {
     scrollRef.current[idx]?.scrollIntoView({
       behavior: "smooth",
-      block: "nearest",
+      block: "start",
     });
   };
-
 
   useEffect(() => {
     const options = {
@@ -46,36 +45,31 @@ function Header({ scrollRef }) {
           <div className="logo-text">XJ's Portfolio</div>
         </div>
         <div className="menu">
-          <span
-            className={`item ${activeIndex === 1 ? "active" : ""}`}
-            onClick={() => handleScroll(1)}
-          >
-            About
-          </span>
-          <span
-            className={`item ${activeIndex === 2 ? "active" : ""}`}
-            onClick={() => handleScroll(2)}
-          >
-            Stack
-          </span>
-          <span
-            className={`item ${activeIndex === 3 ? "active" : ""}`}
-            onClick={() => handleScroll(3)}
-          >
-            Project
-          </span>
-          <span
-            className={`item ${activeIndex === 4 ? "active" : ""}`}
-            onClick={() => handleScroll(4)}
-          >
-            Training
-          </span>
-          <span
-            className={`item ${activeIndex === 5 ? "active" : ""}`}
-            onClick={() => handleScroll(5)}
-          >
-            Contact
-          </span>
+          <div className="item" onClick={() => handleScroll(1)}>
+            <div className={`item-text ${activeIndex === 1 ? "active" : ""}`}>
+              About
+            </div>
+          </div>
+          <div className="item" onClick={() => handleScroll(2)}>
+            <span className={`item-text ${activeIndex === 2 ? "active" : ""}`}>
+              Stack
+            </span>
+          </div>
+          <div className="item" onClick={() => handleScroll(3)}>
+            <span className={`item-text ${activeIndex === 3 ? "active" : ""}`}>
+              Project
+            </span>
+          </div>
+          <div className="item" onClick={() => handleScroll(4)}>
+            <span className={`item-text ${activeIndex === 4 ? "active" : ""}`}>
+              Training
+            </span>
+          </div>
+          <div className="item" onClick={() => handleScroll(5)}>
+            <span className={`item-text ${activeIndex === 5 ? "active" : ""}`}>
+              Contact
+            </span>
+          </div>
         </div>
       </div>
     </header>

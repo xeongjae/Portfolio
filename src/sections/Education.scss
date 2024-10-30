@@ -10,7 +10,7 @@
   .title {
     display: flex;
     align-items: center;
-    gap: 3%;
+    gap: 5%;
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
     font-weight: 700;
@@ -18,6 +18,17 @@
     margin-bottom: 100px;
     white-space: nowrap;
     text-shadow: 1.5px 1.5px 2px #758ebf;
+    filter: brightness(0.9);
+  }
+
+  .title:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to right, #8fafd9, #dbd0f2);
+    border-radius: 20px;
+    filter: brightness(0.9);
   }
 
   .title:after {
@@ -25,21 +36,23 @@
     display: block;
     width: 100%;
     height: 6px;
-    background: linear-gradient(to right, #f2dfe6, #dbd0f2, #8fafd9, #758ebf);
+    background: linear-gradient(to right, #dbd0f2, #8fafd9,);
     border-radius: 20px;
-    opacity: 0.6;
+    filter: brightness(0.9);
   }
 
   .contents {
     display: flex;
-    justify-content: space-between;
-    gap: 0;
+    justify-content: center;
+    gap: 5%;
     height: 400px;
   }
 
   .img-box {
     display: none;
     width: 280px;
+    user-select: none;
+    pointer-events: none;  
   }
 
   .img {
@@ -63,14 +76,15 @@
 
   .info-mid {
     font-size: 14px;
-    margin: 8px 0;
+    margin: 8px 0 4px 0;
+    color: #9ca3af;
     font-family: "NanumSquareNeo";
   }
 
   .info-bot {
     font-size: 14px;
     color: #9ca3af;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     font-family: "NanumSquareNeo";
   }
 
@@ -100,9 +114,7 @@
       display: none;
     }
     .contents {
-      display: flex;
-      justify-content: start;
-      gap: 40px;
+      gap: 5%;
     }
   }
 }
@@ -114,9 +126,7 @@
       display: block;
     }
     .contents {
-      display: flex;
-      justify-content: space-between;
-      gap: 0%;
+      gap: 3%;
     }
   }
 }
@@ -128,9 +138,7 @@
       display: block;
     }
     .contents {
-      display: flex;
-      justify-content: space-between;
-      gap: 0%;
+      gap: 5%;
     }
   }
 }

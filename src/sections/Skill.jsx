@@ -11,14 +11,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 function Skill({ setRef }) {
   return (
     <section ref={setRef} className="Skill">
-      <div className="skill-title">
-        <div className="tit">Stack</div>
-        <p className="subtitle">
-          성장에 대한 두려움 없이 책임감 있게 도전하며,
-          <br />
-          사용자의 입장에서 더 나은 경험을 제공하기 위해 최선을 다합니다.
-        </p>
-      </div>
+      <div className="skill-title">Stack</div>
       <div className="used-stack-cards">
         <UsedStackCard
           title={"HTML / CSS"}
@@ -50,8 +43,7 @@ function Skill({ setRef }) {
           icon={<SiSass size={30} color="#CC6699" />}
         >
           <div>
-            Styled Component, SCSS를 적용하여 스타일링 및 CSS
-            관리를 해봤습니다.
+            Styled Component, SCSS를 적용하여 스타일링 및 CSS 관리를 해봤습니다.
           </div>
           <div>
             UI 라이브러리를 사용하여 빠르고 일관된 스타일링 구현을 해봤습니다.

@@ -34,7 +34,7 @@ const Contact = () => {
             Github
           </a>
         </div>
-        <img src="/cloud_1.png" className="frontend-text" alt="cloud" />
+        <img src="/cloud_1.png" className="frontend-text" alt="cloud1" />
         <img src="/cloud_4.png" className="Code-text" alt="cloud4" />
         <img src="/cloud_3.png" className="react-text" alt="cloud3" />
         <img src="/cloud_2.png" className="javascript-text" alt="cloud2" />

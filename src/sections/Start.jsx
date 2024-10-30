@@ -21,6 +21,7 @@ function Start({ setRef }) {
         trigger: ".section-02",
         scrub: 1,
       },
+      filter: "blur(3px)",
     });
 
     gsap.to(".cloud1", {

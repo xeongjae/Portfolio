@@ -47,15 +47,17 @@
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    color: #9ca3af;
-    transition: color 0.4s, font-weight 0.4s;
+    cursor: default;
+  }
 
+  .item-text {
+    color: #9ca3af;
+    transition: color 0.3s;
     &:hover {
       cursor: pointer;
     }
     &.active {
       color: white;
-      font-weight: 900;
     }
   }
 }
