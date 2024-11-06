@@ -59,7 +59,7 @@
   }
 
   .link:hover {
-    background-color: #F8FAFC;
+    background-color: #f8fafc;
     color: black;
     cursor: pointer;
   }
@@ -67,12 +67,10 @@
   .frontend-text {
     width: 10vw;
     position: absolute;
-    top: 22%;
+    top: 24%;
     left: 0;
-    color: #999;
     filter: blur(2px);
-    animation: bounce 1, 5s infinite alternate;
-    z-index: 10;
+    animation: bounce 3.2s infinite alternate;
     pointer-events: none;
     user-select: none;
   }
