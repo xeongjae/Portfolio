@@ -16,12 +16,11 @@ function Start({ setRef }) {
 
   useGSAP(() => {
     gsap.to(".start .title", {
-      scale: 0.3,
+      scale: 0.5,
       scrollTrigger: {
         trigger: ".section-02",
         scrub: 1,
       },
-      filter: "blur(3px)",
     });
 
     gsap.to(".cloud1", {
@@ -36,7 +35,6 @@ function Start({ setRef }) {
       y: "-400%",
       rotation: -30,
       scale: 0.5,
-      filter: "blur(3px)",
     });
     gsap.to(".cloud3", {
       ...gsapOptions,
@@ -56,7 +54,6 @@ function Start({ setRef }) {
       ...gsapOptions,
       x: "-500%",
       y: "-700%",
-      filter: "blur(2px)",
     });
     gsap.to(".cloud7", {
       ...gsapOptions,
@@ -93,7 +90,6 @@ function Start({ setRef }) {
       x: "300%",
       y: "-100%",
       rotation: 20,
-      filter: "blur(2px)",
     });
     gsap.to(".cloud15", {
       ...gsapOptions,
@@ -108,7 +104,6 @@ function Start({ setRef }) {
       x: "400%",
       y: "-600%",
       scale: 0,
-      filter: "blur(4px)",
     });
     gsap.to(".cloud17", {
       ...gsapOptions,

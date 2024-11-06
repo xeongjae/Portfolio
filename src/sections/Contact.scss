@@ -19,17 +19,12 @@
     z-index: 100;
   }
 
-  .subtitle {
-    font-family: "NanumSquareNeo";
-    font-size: 36px;
-    font-weight: 400;
-  }
-
   .description {
     font-family: "NanumSquareNeo";
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     line-height: 1.5;
     color: #d1d5d8;
+    font-size: 20px;
   }
 
   .contact-item-box {
@@ -64,13 +59,13 @@
   }
 
   .link:hover {
-    background-color: white;
+    background-color: #F8FAFC;
     color: black;
     cursor: pointer;
   }
 
   .frontend-text {
-    width: 12vw;
+    width: 10vw;
     position: absolute;
     top: 22%;
     left: 0;
@@ -83,12 +78,11 @@
   }
 
   .Code-text {
-    width: 10vw;
+    width: 9vw;
     position: absolute;
     rotate: 20deg;
     top: 14%;
     right: 18%;
-    color: #ddd;
     filter: blur(1px);
     animation: bounce 2s infinite alternate;
     pointer-events: none;
@@ -96,11 +90,10 @@
   }
 
   .react-text {
-    width: 8vw;
+    width: 7vw;
     position: absolute;
     top: 40%;
     right: 0;
-    color: #ddd;
     filter: blur(3px);
     animation: bounce 3s infinite alternate;
     pointer-events: none;
@@ -108,12 +101,11 @@
   }
 
   .javascript-text {
-    width: 10vw;
+    width: 9vw;
     position: absolute;
     rotate: -5deg;
     bottom: 10%;
     left: 50%;
-    color: #555;
     filter: blur(3px);
     animation: bounce 2.5s infinite alternate;
     pointer-events: none;

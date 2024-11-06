@@ -10,14 +10,12 @@
   .title {
     display: flex;
     align-items: center;
-    gap: 5%;
-    font-family: "Montserrat", sans-serif;
-    font-size: 60px;
+    gap: 4%;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 100px;
     margin-bottom: 100px;
     white-space: nowrap;
-    text-shadow: 1.5px 1.5px 2px #758ebf;
     filter: brightness(0.9);
   }
 
@@ -25,9 +23,9 @@
     content: "";
     display: block;
     width: 100%;
-    height: 6px;
-    background: linear-gradient(to right, #8fafd9, #dbd0f2);
-    border-radius: 20px;
+    height: 3px;
+    border-radius: 1px;
+    background: linear-gradient(to right, #4a5568, #f8fafc);
     filter: brightness(0.9);
   }
 
@@ -35,9 +33,9 @@
     content: "";
     display: block;
     width: 100%;
-    height: 6px;
-    background: linear-gradient(to right, #dbd0f2, #8fafd9,);
-    border-radius: 20px;
+    height: 3px;
+    border-radius: 1px;
+    background: linear-gradient(to right, #f8fafc, #4a5568);
     filter: brightness(0.9);
   }
 

@@ -7,12 +7,11 @@ import { SiGithub } from "react-icons/si";
 const Contact = () => {
   return (
     <div className="contact">
-      <div className="title">Thank you for Watching</div>
-      <div className="subtitle">봐주셔서 감사합니다!</div>
+      <div className="title">Thank you for visiting!</div>
       <div className="description">
-        기본에 충실하며 꾸준히 성장하는 개발자가 되고 싶습니다.
+        수용적이고 능동적인 자세로 꾸준히 성장하는 개발자가 되고 싶습니다.
         <br />
-        항상 배우고 발전하는 자세로 나아가겠습니다.
+        성장에 큰 가치를 두고 즐겁게 개발하겠습니다.
       </div>
       <div className="contact-item-box">
         <div className="contact-item">

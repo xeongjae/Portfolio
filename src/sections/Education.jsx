@@ -4,7 +4,7 @@ import "./Education.scss";
 const Education = () => {
   return (
     <div className="education">
-      <div className="title">Training</div>
+      <h1 className="title">Training</h1>
       <div className="contents">
         <div className="info">
           <div className="info-top"> 엘리스 SW 엔지니어 6기</div>
