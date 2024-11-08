@@ -6,6 +6,14 @@ import PortfolioContents from "./PortfolioContents";
 import LAFContents from "./LAFContents";
 import CasaverdeContents from "./CasaverdeContents";
 
+const gitLink = {
+  1: "https://github.com/teeny-box/teenybox-frontend",
+  2: "https://github.com/teeny-box/michi-frontend",
+  3: "https://github.com/xeongjae/Portfolio",
+  4: "https://github.com/elice-team10/Frontend",
+  5: "https://github.com/SW-6-Casa-Verde/Backend",
+};
+
 const ProjectModal = ({ project, onClose }) => {
   useEffect(() => {
     if (project) {
@@ -45,12 +53,13 @@ const ProjectModal = ({ project, onClose }) => {
             alt="Close icon"
             onClick={onClose}
           />
-          <img
-            src="/github.svg"
-            className="github-button"
-            alt="github icon"
-            onClick={onClose}
-          />
+          <a href={gitLink[project.Number]} target="_blank" rel="noreferrer">
+            <img
+              src="/github.svg"
+              className="github-button"
+              alt="github icon"
+            />
+          </a>
         </span>
         <header>
           <div className="back">

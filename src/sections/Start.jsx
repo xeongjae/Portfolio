@@ -47,13 +47,13 @@ function Start({ setRef }) {
       x: "-400%",
       y: "300%",
       scale: 1,
-      rotation: -20,
+      rotation: -15,
       filter: "blur(5px)",
     });
     gsap.to(".cloud5", {
       ...gsapOptions,
       x: "-500%",
-      y: "-700%",
+      y: "-400%",
     });
     gsap.to(".cloud7", {
       ...gsapOptions,
@@ -65,8 +65,8 @@ function Start({ setRef }) {
     });
     gsap.to(".cloud9", {
       ...gsapOptions,
-      x: "-200%",
-      y: "-400%",
+      x: "-100%",
+      y: "-300%",
       scale: 1,
       rotation: -10,
     });
@@ -88,14 +88,14 @@ function Start({ setRef }) {
     gsap.to(".cloud14", {
       ...gsapOptions,
       x: "300%",
-      y: "-100%",
+      y: "-200%",
       rotation: 20,
     });
     gsap.to(".cloud15", {
       ...gsapOptions,
       x: "600%",
       y: "-800%",
-      filter: "blur(23px)",
+      filter: "blur(25px)",
       rotation: 100,
       scale: 0.5,
     });
@@ -107,10 +107,10 @@ function Start({ setRef }) {
     });
     gsap.to(".cloud17", {
       ...gsapOptions,
-      x: "1200%",
-      y: "-1000%",
+      x: "300%",
+      y: "-300%",
       scale: 0,
-      filter: "blur(20px)",
+      filter: "blur(10px)",
     });
     gsap.to(".cloud18", {
       ...gsapOptions,
@@ -128,7 +128,7 @@ function Start({ setRef }) {
       <img src="/cloud_4.png" className="cloud cloud4" alt="cloud4" />
       <img src="/cloud_5.png" className="cloud cloud5" alt="cloud5" />
       <img src="/cloud_7.png" className="cloud cloud7" alt="cloud7" />
-      <img src="cloud_9.png" className="cloud cloud9" alt="cloud9" />
+      <img src="cloud_11.png" className="cloud cloud9" alt="cloud9" />
       <img src="/cloud_10.png" className="cloud cloud10" alt="cloud10" />
       <img src="/cloud_12.png" className="cloud cloud12" alt="cloud12" />
       <img src="/cloud_14.png" className="cloud cloud14" alt="cloud14" />

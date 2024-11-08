@@ -33,8 +33,8 @@
     user-select: none;
 
     &.cloud1 {
-      left: 2vw;
-      top: 28%;
+      left: 2.2vw;
+      top: 26%;
       scale: 2;
     }
 
@@ -46,42 +46,44 @@
 
     &.cloud3 {
       left: 3vw;
-      bottom: 28vh;
+      bottom: 22vh;
       scale: 1.3;
     }
 
     &.cloud4 {
+      display: none;
       left: 0.5vw;
       bottom: 80px;
       scale: 2.6;
     }
 
     &.cloud5 {
-      left: 15vw;
-      bottom: 12vh;
-      scale: 1.8;
+      left: 13vw;
+      bottom: 10vh;
+      scale: 2.1;
     }
 
     &.cloud7 {
-      left: 28vw;
+      left: 25vw;
       bottom: 24vh;
       scale: 1;
       filter: blur(2px);
     }
 
     &.cloud9 {
-      left: 35vw;
-      bottom: 50px;
-      scale: 2.8;
+      left: 37vw;
+      bottom: 32px;
+      scale: 3;
     }
 
     &.cloud10 {
-      right: 36vw;
-      bottom: 10vh;
+      right: 35vw;
+      bottom: 12vh;
       scale: 1.9;
     }
 
     &.cloud12 {
+      display: none;
       right: 0vw;
       bottom: 5.5vh;
       scale: 1.8;
@@ -89,32 +91,33 @@
 
     &.cloud14 {
       right: 10.5vw;
-      bottom: 23vh;
-      scale: 3.7;
+      bottom: 20vh;
+      scale: 3.0;
     }
 
     &.cloud15 {
-      right: 25vw;
+      right: 21vw;
       bottom: 31vh;
       scale: 1;
+      filter: blur(1px);
     }
 
     &.cloud16 {
       right: 3vw;
       bottom: 42vh;
-      scale: 1;
+      scale: 1.3;
     }
 
     &.cloud17 {
-      right: 9vw;
-      top: 38vh;
-      scale: 2;
+      right: 13vw;
+      top: 40vh;
+      scale: 1.7;
     }
 
     &.cloud18 {
-      right: 15vw;
+      right: 13vw;
       top: 19vh;
-      scale: 3;
+      scale: 2.9;
     }
   }
 }
