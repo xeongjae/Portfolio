@@ -138,10 +138,10 @@ function Start({ setRef }) {
       <img src="/cloud_18.png" className="cloud cloud18" alt="cloud18" />
 
       <div className="title">
-        <h1>HELLO, I'm</h1>
+        <h1>Hello, I'm</h1>
         <h1 className="point">FronTenD</h1>
-        <h1>DeveLOPer</h1>
-        <h1 className="point">XeongJae</h1>
+        <h1>DEVEl0PEr</h1>
+        <h1 className="point">Xe0ngJae</h1>
       </div>
     </section>
   );
