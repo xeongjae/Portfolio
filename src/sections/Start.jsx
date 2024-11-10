@@ -87,8 +87,8 @@ function Start({ setRef }) {
     });
     gsap.to(".cloud14", {
       ...gsapOptions,
-      x: "300%",
-      y: "-200%",
+      x: "200%",
+      y: "-400%",
       rotation: 20,
     });
     gsap.to(".cloud15", {

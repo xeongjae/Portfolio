@@ -17,7 +17,7 @@
       margin: 0;
       font-family: "Syncopate", sans-serif;
       font-weight: 700;
-      font-size: clamp(64px, 6vw, 130px);
+      font-size: clamp(60px, 6vw, 160px);
       transition: transform 0.5s ease-out;
       z-index: 1;
     }
@@ -90,16 +90,16 @@
     }
 
     &.cloud14 {
-      right: 10.5vw;
-      bottom: 20vh;
-      scale: 3.0;
+      right: 12vw;
+      bottom: 22vh;
+      scale: 2.8;
     }
 
     &.cloud15 {
-      right: 21vw;
-      bottom: 31vh;
+      right: 23vw;
+      bottom: 30vh;
       scale: 1;
-      filter: blur(1px);
+      filter: blur(2px);
     }
 
     &.cloud16 {
