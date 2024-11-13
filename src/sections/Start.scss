@@ -24,6 +24,9 @@
     .point {
       color: #a2b4d2;
     }
+    .letter-space {
+      letter-spacing: -7px;
+    }
   }
   .cloud {
     position: absolute;
@@ -51,75 +54,59 @@
     }
 
     &.cloud4 {
-      display: none;
-      left: 0.5vw;
-      bottom: 80px;
-      scale: 2.6;
-    }
-
-    &.cloud5 {
       left: 15vw;
       bottom: 11vh;
       scale: 2.1;
     }
 
-    &.cloud7 {
+    &.cloud5 {
       left: 25vw;
       bottom: 25vh;
       scale: 1;
       filter: blur(2px);
     }
 
-    &.cloud9 {
-      left: 39vw;
-      bottom: 8vh;
-      scale: 3;
-    }
-
-    &.cloud10 {
+    &.cloud6 {
       right: 33vw;
       bottom: 13vh;
       scale: 1.9;
     }
 
-    &.cloud12 {
-      display: none;
-      right: 0vw;
-      bottom: 5.5vh;
-      scale: 1.8;
+    &.cloud7 {
+      left: 39vw;
+      bottom: 8vh;
+      scale: 3;
     }
 
-    &.cloud14 {
+    &.cloud8 {
       right: 12vw;
       bottom: 22vh;
       scale: 2.8;
     }
 
-    &.cloud15 {
+    &.cloud9 {
       right: 23vw;
       bottom: 30vh;
       scale: 1;
       filter: blur(2px);
     }
 
-    &.cloud16 {
+    &.cloud10 {
       right: 1.5vw;
       bottom: 42vh;
       scale: 1.3;
     }
 
-    &.cloud17 {
+    &.cloud11 {
       right: 13vw;
       top: 40vh;
       scale: 1.7;
     }
 
-    &.cloud18 {
+    &.cloud12 {
       right: 13vw;
       top: 19vh;
       scale: 2.9;
     }
   }
 }
-
-

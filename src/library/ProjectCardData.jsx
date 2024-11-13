@@ -9,7 +9,7 @@ export const ListChart = [
         실제 서비스화를 목표로 진행하였습니다.
       </>
     ),
-    ImageSrc: "/teenybox1.png",
+    ImageSrc: "/teenybox.png",
     Tag: ["React", "SCSS", "MUI", "Context API", "반응형"],
     Feature: ["팀", "장기", "반응형"],
     logo: "/Logo-Teenybox.png",
@@ -42,7 +42,7 @@ export const ListChart = [
     ImageSrc: "/portfolio.png",
     Tag: ["React", "SCSS", "GSAP", "반응형", "Netlify"],
     Feature: ["개인", "배포", "반응형"],
-    logo: "/cloud_2.png",
+    logo: "/cloud_2.webp",
   },
   {
     Number: 4,
@@ -69,7 +69,7 @@ export const ListChart = [
         회원가입, 로그인, 주문 관련 기능을 담당했습니다.
       </>
     ),
-    ImageSrc: "/CasaVerde1.png",
+    ImageSrc: "/CasaVerde.png",
     Tag: ["HTML", "CSS", "JavaScript"],
     Feature: ["팀", "기획", "엘리스"],
     logo: "/Logo-Casaverde.png",
