@@ -68,8 +68,9 @@
 
     &.cloud6 {
       right: 33vw;
-      bottom: 13vh;
+      bottom: 11vh;
       scale: 1.9;
+      rotate: 5deg;
     }
 
     &.cloud7 {
@@ -101,6 +102,7 @@
       right: 13vw;
       top: 40vh;
       scale: 1.7;
+      rotate: -5deg;
     }
 
     &.cloud12 {

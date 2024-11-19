@@ -64,7 +64,7 @@
     cursor: pointer;
   }
 
-  .frontend-text {
+  .left-cloud {
     width: 10vw;
     position: absolute;
     top: 24%;
@@ -75,7 +75,7 @@
     user-select: none;
   }
 
-  .Code-text {
+  .right-cloud {
     width: 9vw;
     position: absolute;
     rotate: 20deg;
@@ -87,7 +87,7 @@
     user-select: none;
   }
 
-  .react-text {
+  .top-cloud {
     width: 7vw;
     position: absolute;
     top: 40%;
@@ -98,7 +98,7 @@
     user-select: none;
   }
 
-  .javascript-text {
+  .bottom-cloud {
     width: 9vw;
     position: absolute;
     rotate: -5deg;

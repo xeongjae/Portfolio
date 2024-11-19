@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
-import "./About.scss";
+import "./AboutMe.scss";
 import Typed from "typed.js";
 
-function About({ setRef }) {
+function AboutMe({ setRef }) {
   const typedEl = useRef(null);
   const observerRef = useRef(null); // Intersection Observer의 ref
 
@@ -42,51 +42,56 @@ function About({ setRef }) {
   }, []);
 
   return (
-    <section ref={setRef} className="about">
+    <section ref={setRef} className="about-me">
       <h1 className="title">About Me</h1>
       <div className="contents">
         <div className="img-box">
           <img
-            src="/동글프사.png"
+            src="/profile.png"
             fill
             property="true"
             className="img"
-            alt="동글프사"
+            alt="profile"
           />
-          <div className="tag-box">
-            <div className="tag">#열정</div>
-            <div className="tag">#자기주도적</div>
-            <div className="tag">#몰입</div>
-          </div>
         </div>
         <div className="text">
           <div className="type-text-box">
             <span className="type-text" ref={typedEl}></span>
           </div>
-          <div className="text-box">
-            <p>
-              ✔︎ &nbsp;새로운 프로젝트에 참여할 때마다 항상{" "}
-              <span className="point">열정적으로 몰입</span>합니다.
-              <br />
-              과정을 즐기고 새로운 지식을 얻는 것을 좋아하는 "개발자" 입니다.
-            </p>
-          </div>
           <p>
-            ✔︎ &nbsp;협업에서도 같은 열정을 유지하며, 팀원들과{" "}
-            <span className="point">적극적인 협업</span>으로 <br /> 최종
-            프로젝트의 퀄리티를 높이는 데 기여합니다.
-          </p>
-          <p>
-            ✔︎ &nbsp;주어진 업무에 그치지 않고{" "}
-            <span className="point">주도적으로 고민</span>합니다.
+            <img src="/cloud_1.webp" className="cloud" alt="cloud" /> &nbsp;
             <br />
-            특히 기획 의도에 적합한 기능을 찾고, 사용자 경험 향상을 위해
-            노력합니다.
+            <span>
+              과정을 즐기고 새로운 지식을 얻는 것을 좋아하는{" "}
+              <span className="point">열정파</span>입니다.
+            </span>
           </p>
+          <p>
+            <img src="/cloud_2.webp" className="cloud" alt="cloud" /> &nbsp;
+            <br />
+            <span>
+              주어진 업무에 그치지 않고{" "}
+              <span className="point">주도적으로 팀에 기여</span>
+              합니다.
+            </span>
+          </p>
+          <p>
+            <img src="/cloud_4.webp" className="cloud" alt="cloud" /> &nbsp;
+            <br />
+            <span>
+              항상 <span className="point">협업을 고려한 코드</span>를 작성하고{" "}
+              <span className="point">성능 개선</span>에 집중합니다.
+            </span>
+          </p>
+          <div className="tag-box">
+            <div className="tag">#열정</div>
+            <div className="tag">#자기주도적</div>
+            <div className="tag">#협업</div>
+          </div>
         </div>
       </div>
     </section>
   );
 }
 
-export default About;
+export default AboutMe;

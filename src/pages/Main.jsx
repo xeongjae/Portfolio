@@ -2,11 +2,11 @@ import "./Main.scss";
 import { useRef } from "react";
 import Header from "../components/Header";
 import Start from "../sections/Start";
-import About from "../sections/About";
-import Skill from "../sections/Skill";
+import AboutMe from "../sections/AboutMe";
+import UsedStack from "../sections/UsedStack";
 import Project from "../sections/Project";
 import Contact from "../sections/Contact";
-import Education from "../sections/Education";
+import Training from "../sections/Training";
 
 function Main() {
   const scrollRef = useRef([]);
@@ -19,16 +19,16 @@ function Main() {
           <Start />
         </section>
         <section ref={(el) => (scrollRef.current[1] = el)}>
-          <About />
+          <AboutMe />
         </section>
         <section ref={(el) => (scrollRef.current[2] = el)}>
-          <Skill />
+          <UsedStack />
         </section>
         <section ref={(el) => (scrollRef.current[3] = el)}>
           <Project />
         </section>
         <section ref={(el) => (scrollRef.current[4] = el)}>
-          <Education />
+          <Training />
         </section>
         <section ref={(el) => (scrollRef.current[5] = el)}>
           <Contact />

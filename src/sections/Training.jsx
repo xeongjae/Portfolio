@@ -1,9 +1,9 @@
 import React from "react";
-import "./Education.scss";
+import "./Training.scss";
 
-const Education = () => {
+const Training = () => {
   return (
-    <div className="education">
+    <div className="training">
       <h1 className="title">Training</h1>
       <div className="contents">
         <div className="info">
@@ -29,11 +29,17 @@ const Education = () => {
           </div>
         </div>
         <div className="img-box">
-          <img src="/eliceIpad.png" fill property="true" className="img" alt="수료증"/>
+          <img
+            src="/eliceIpad.png"
+            fill
+            property="true"
+            className="img"
+            alt="수료증"
+          />
         </div>
       </div>
     </div>
   );
 };
 
-export default Education;
+export default Training;

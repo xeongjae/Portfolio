@@ -1,9 +1,9 @@
-.about {
+.about-me {
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 1300px;
-  height: 1150px;
+  height: 800px;
   margin: 0 40px;
   margin-bottom: 100px;
   position: relative;
@@ -43,7 +43,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 60px;
   }
 
   .img-box {
@@ -62,9 +62,11 @@
   .text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 24px;
     p {
+      display: flex;
+      align-items: center;
+      gap: 2px;
       font-family: "NanumSquareNeo";
       font-size: 20px;
       line-height: 1.5;
@@ -73,69 +75,48 @@
 
   .type-text-box {
     display: none;
-    margin-top: 40px;
-    height: 40px;
+    margin: 20px 0 20px 0;
+    height: 30px;
   }
 
   .type-text {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 30px;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(
-      to right,
-      #d0ddee,
-      #95a8c8,
-      #d0ddee,
-      #95a8c8
-    );
-    color: transparent; /* 글자색 투명화 */
+    font-size: 28px;
+    color: #f8fafc;
     ~ .typed-cursor {
-      font-size: 30px;
-      color: #95a8c8;
+      font-size: 28px;
+      color: #d0ddee;
     }
   }
-
-  .text-box {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  .cloud {
+    width: 28px;
+    height: 20px;
   }
 
   .tag-box {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    display: none;
+    gap: 14px;
   }
 
   .tag {
     font-family: "NanumSquareNeoBold";
-    color: rgb(18, 18, 18);
-    background-color: #f8fafc;
+    color: #f8fafc;
+    background-color: rgb(208, 221, 238, 0.15);
     border-radius: 40px;
     font-size: 16px;
-    padding: 0.3rem 0.6rem;
+    padding: 0.35rem 0.65rem;
   }
 
   .point {
     font-family: "NanumSquareNeoExtraBold";
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(
-      to right,
-      #d0ddee,
-      #8296b9,
-      #d0ddee,
-      #8296b9
-    );
-    color: transparent;
+    color: #95a8c8;
   }
 }
 
 @media (min-width: 768px) {
-  .about {
-    height: 1150px;
+  .about-me {
+    height: 800px;
     margin: 0 40px;
     .contents {
       display: flex;
@@ -149,41 +130,50 @@
     .mobile-text {
       display: block;
     }
+    .tag-box {
+      display: none;
+    }
   }
 }
 
 @media (min-width: 1024px) {
-  .about {
-    height: 850px;
+  .about-me {
+    height: 600px;
     margin: 0 60px;
     .contents {
       display: flex;
       flex-direction: row;
-      gap: 4%;
+      gap: 2%;
     }
     .type-text-box {
       display: flex;
     }
     .mobile-text {
       display: none;
+    }
+    .tag-box {
+      display: flex;
     }
   }
 }
 
 @media (min-width: 1280px) {
-  .about {
-    height: 850px;
+  .about-me {
+    height: 600px;
     margin: 0 100px;
     .contents {
       display: flex;
       flex-direction: row;
-      gap: 4%;
+      gap: 2%;
     }
     .type-text-box {
       display: flex;
     }
     .mobile-text {
       display: none;
+    }
+    .tag-box {
+      display: flex;
     }
   }
 }

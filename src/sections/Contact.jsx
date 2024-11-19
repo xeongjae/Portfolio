@@ -33,10 +33,10 @@ const Contact = () => {
             Github
           </a>
         </div>
-        <img src="/cloud_1.webp" className="frontend-text" alt="cloud1" />
-        <img src="/cloud_4.webp" className="Code-text" alt="cloud4" />
-        <img src="/cloud_3.webp" className="react-text" alt="cloud3" />
-        <img src="/cloud_2.webp" className="javascript-text" alt="cloud2" />
+        <img src="/cloud_1.webp" className="left-cloud" alt="cloud1" />
+        <img src="/cloud_4.webp" className="top-cloud" alt="cloud4" />
+        <img src="/cloud_3.webp" className="right-cloud" alt="cloud3" />
+        <img src="/cloud_2.webp" className="bottom-cloud" alt="cloud2" />
       </div>
     </div>
   );
