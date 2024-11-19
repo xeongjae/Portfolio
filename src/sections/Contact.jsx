@@ -7,7 +7,8 @@ import { SiGithub } from "react-icons/si";
 const Contact = () => {
   return (
     <div className="contact">
-      <div className="title">Thank you for visiting!</div>
+      <h1 className="title">Contact</h1>
+      <div className="sub-title">Thank you for visiting!</div>
       <div className="description">
         수용적이고 능동적인 자세로 꾸준히 성장하는 개발자가 되고 싶습니다.
         <br />
@@ -34,8 +35,8 @@ const Contact = () => {
           </a>
         </div>
         <img src="/cloud_1.webp" className="left-cloud" alt="cloud1" />
-        <img src="/cloud_4.webp" className="top-cloud" alt="cloud4" />
-        <img src="/cloud_3.webp" className="right-cloud" alt="cloud3" />
+        <img src="/cloud_4.webp" className="right-cloud" alt="cloud4" />
+        <img src="/cloud_3.webp" className="top-cloud" alt="cloud3" />
         <img src="/cloud_2.webp" className="bottom-cloud" alt="cloud2" />
       </div>
     </div>
