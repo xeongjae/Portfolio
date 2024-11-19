@@ -13,7 +13,7 @@ function AboutMe({ setRef }) {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             const typed = new Typed(typedEl.current, {
-              strings: ["안녕하세요, 프론트엔드 개발자 김성재입니다."],
+              strings: ["안녕하세요, 프론트엔드 개발자 김성재입니다!"],
               typeSpeed: 80,
               loop: false,
               smartBackspace: true,

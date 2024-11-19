@@ -30,7 +30,6 @@ function UsedStack({ setRef }) {
           title={"CSS"}
           icon={<FaCss3Alt size={26} color="#1572B6" />}
         >
-          <div>• 불필요하고 중복되는 코드를 지양합니다.</div>
           <div>• 반응형 웹 적용을 고려한 style 코드를 작성합니다. </div>
         </UsedStackCard>
         <UsedStackCard
@@ -44,30 +43,29 @@ function UsedStack({ setRef }) {
           title={"React"}
           icon={<SiReact size={26} color="#61DAFB" />}
         >
-          <div>• 리엑트를 이용하여 웹 프로젝트를 완성할 수 있습니다.</div>
-          <div>• 효율적인 컴포넌트와 Hook 사용하여 코드를 작성합니다.</div>
+          <div>• 효율적인 컴포넌트와 Hook을 사용하여 코드를 작성합니다.</div>
         </UsedStackCard>
         <UsedStackCard
           title={"TypeScript"}
           icon={<SiTypescript size={26} color="#3178C6" />}
         >
           <div>
-            TypeScript의 타입 시스템을 활용하여 개발하는 것을 지향합니다.
+            • TypeScript의 타입 시스템을 활용하여 개발하는 것을 지향합니다.
           </div>
         </UsedStackCard>
         <UsedStackCard
           title={"Context API / Recoil"}
           icon={<SiRecoil size={30} color="#3578E5" />}
         >
-          <div>• 프로젝트에 전역 상태 관리를 위해 사용한 경험이 있습니다.</div>
-          <div>• 팀원 간의 컨벤션을 준수합니다.</div>
+          <div>• 프로젝트 전역 상태 관리를 위해 사용한 경험이 있습니다.</div>
         </UsedStackCard>
         <UsedStackCard
           title={"SCSS / Styled Component"}
           icon={<SiSass size={30} color="#CC6699" />}
         >
           <div>
-            • Styled Component, SCSS를 적용하여 스타일링 및 CSS 관리를 해봤습니다.
+            • Styled Component, SCSS를 적용하여 스타일링 및 CSS 관리를
+            해봤습니다.
           </div>
         </UsedStackCard>
         <UsedStackCard
@@ -97,7 +95,6 @@ function UsedStack({ setRef }) {
           title={"Git"}
           icon={<SiGithub size={30} color="#F05032" />}
         >
-          <div>• 코드 저장과 버전 기록을 위해 사용했습니다.</div>
           <div>• GitHub, GitLab을 사용하여 협업할 수 있습니다.</div>
         </UsedStackCard>
         <UsedStackCard
