@@ -109,40 +109,39 @@
     pointer-events: none;
     user-select: none;
   }
-
-  @media (min-width: 768px) {
-    .contact {
-      width: calc(100% - 80px);
-      margin: 0 40px;
+}
+@media (min-width: 768px) {
+  .contact {
+    margin: 0 40px;
+    .contact-item-box {
+      flex-direction: column;
     }
   }
+}
 
-  @media (min-width: 1024px) {
-    .contact {
-      width: calc(100% - 120px);
-      margin: 0 60px;
+@media (min-width: 1024px) {
+  .contact {
+    margin: 0 60px;
+    .contact-item-box {
+      flex-direction: column;
     }
   }
+}
 
-  @media (min-width: 1280px) {
-    .contact {
-      width: calc(100% - 200px);
-      margin: 0 100px;
-    }
-  }
-
-  @keyframes bounce {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(-20px);
-    }
-  }
-
-  @media (min-width: 1024px) {
+@media (min-width: 1280px) {
+  .contact {
+    margin: 0 100px;
     .contact-item-box {
       flex-direction: row;
     }
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
   }
 }
